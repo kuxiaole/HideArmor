@@ -1,0 +1,16 @@
+name: HideArmor
+version: '${version}'
+main: dev.hidearmor.HideArmorPlugin
+api-version: '26.3'
+folia-supported: true
+depend: [packetevents]
+description: 支持 Folia 的盔甲与鞘翅外观隐藏菜单
+commands:
+  hidearmor:
+    description: 打开盔甲隐藏控制菜单
+    aliases: [ha]
+    usage: /hidearmor
+permissions:
+  hidearmor.use:
+    description: 使用盔甲隐藏控制菜单
+    default: op
